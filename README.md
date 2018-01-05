@@ -1,24 +1,5 @@
-# README
+This is Rails backend API for https://github.com/jaypandya73/react-searchable react front-end app.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+first Run `bundle install` 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+after that run `rake db:seed` to create test data and then run it on diff. port with `rails s -p 4000`(React app is pointing at localhost:4000 so)
